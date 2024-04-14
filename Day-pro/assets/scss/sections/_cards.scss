@@ -1,0 +1,36 @@
+// main: ../main.scss
+/*--------------------------------------------------------------
+# Cards Section
+--------------------------------------------------------------*/
+.cards {
+  .card {
+    background-color: var(--background-color);
+    color: var(--default-color);
+    border: 1px solid rgba(var(--default-color-rgb), .1);
+    padding: 40px;
+    margin: -1px;
+    border-radius: 0;
+
+    span {
+      display: block;
+      font-size: 24px;
+      font-weight: 400;
+      color: var(--accent-color);
+    }
+
+    h4 {
+      color: rgba(var(--heading-color-rgb), .8);
+      font-size: 24px;
+      font-weight: 600;
+      padding: 0;
+      margin: 20px 0;
+    }
+
+    p {
+      color: rgba(var(--default-color-rgb), .6);
+      font-size: 15px;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
